@@ -1,3 +1,38 @@
+.heading {
+  position: absolute;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.heading::after {
+  content: "";
+  border-bottom-color: #ffffff;
+  height: 1px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid;
+  margin: 0px auto;
+}
+
+.body {
+  margin: 50px;
+}
+
 .cda-img {
   width: 100%;
+  position: relative;
+}
+
+.title {
+  color: #000066;
+  font-size: 17px;
+  margin-top: 75px;
+  margin-left: 50px;
+}
+
+.sub-title {
+  list-style: none;
+  font-size: 16px;
 }
