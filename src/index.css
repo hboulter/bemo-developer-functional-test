@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+/* Navigation Bar */
+
 .navbar {
   background-color: rgb(255, 255, 255);
   height: 125px;
@@ -42,6 +44,8 @@ code {
 .button:active {
   color: blue;
 }
+
+/* Footer */
 
 .footer {
   padding: 42px;
@@ -84,4 +88,100 @@ code {
 
 .twitter {
   color: white;
+}
+
+/* Contact Page */
+
+.contact-heading {
+  font-size: 17px;
+  margin-left: 32px;
+  letter-spacing: 2px;
+}
+
+.contact-info {
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  letter-spacing: 2px;
+}
+
+.contact-info__heading {
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.form {
+  text-align: center;
+}
+
+.font {
+  text-transform: uppercase;
+  font-size: 11.7px;
+  margin: 8px;
+}
+
+.text-box {
+  margin: 12px;
+  padding: 9px;
+  width: 85%;
+  background-color: #cccccc;
+  outline: none;
+  border: none;
+}
+
+.text-box-2 {
+  margin: 12px;
+  padding: 9px;
+  padding-top: 60px;
+  width: 85%;
+  background-color: #cccccc;
+  outline: none;
+  border: none;
+}
+
+.reset {
+  margin: 10px 10px 0 0;
+  padding: 7px 28px;
+  background: #999999;
+  border: none;
+  cursor: pointer;
+  transition: all 450ms;
+  color: #000066;
+  text-transform: uppercase;
+}
+
+.reset:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.submit {
+  margin: 10px 10px 0 0;
+  padding: 7px 28px;
+  background: #999999;
+  border: none;
+  cursor: pointer;
+  transition: all 450ms;
+  color: #000066;
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.form-note {
+  margin: 20px;
+  margin: 85px 0 85px 0;
+}
+
+.form-note__note {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.form-note__body {
+  font-size: 15px;
 }

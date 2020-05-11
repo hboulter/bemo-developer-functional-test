@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <div>
       <div>
-        <h1 className="heading">CDA Interview Guide</h1>
+        <h1 className="heading">
+          CDA Interview Guide <hr />
+        </h1>
         <img
           src="../images/cda-interview-guide.jpg"
           alt="cda-interview-guide"

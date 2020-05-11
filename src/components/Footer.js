@@ -11,10 +11,18 @@ const Footer = () => {
       <span className="disclaimer">Disclaimer & Privacy Policy </span>
       <span className="contact">Contact Us </span>
       <span className="icons">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon className="facebook" icon={faFacebookF} />
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://twitter.com/explore"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon className="twitter" icon={faTwitter} />
         </a>
       </span>
